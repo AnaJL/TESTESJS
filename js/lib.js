@@ -1,5 +1,9 @@
 export function showdata(elements){
     let result = ``
+    let cor = ''
+    let item = document.querySelector('.characters')
+    let text = document.querySelector('input[id = "search-input"]')
+    let botao = document.getElementsByClassName('.botaok')
     let list = elements["results"]
       for(let i = 0; i<=11;i++){
       if (list[i].status == 'Alive'){
@@ -41,5 +45,9 @@ export function showdata(elements){
           `
           result+= element
         }}
+    if (result == ''){
+        result = '<h1>Não foi encontrado</h1>'
+    }
      item.innerHTML = result
     })}
+
