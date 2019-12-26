@@ -28,7 +28,8 @@ function is_email(email){
 }
 else{
   form.innerHTML = `<br><br><br>
-  <h1>Obrigado(a) , ${nome.value}</h1>`
+  <h1>Obrigado(a) , ${nome.value}</h1>
+  <h2> Earth (C-137) - ${moment().format("MMM Do YY")}</h2>`
 }
 }
 
