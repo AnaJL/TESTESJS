@@ -1,8 +1,15 @@
 {
-  "name": "ProjetoLS2",
+  "name": "projetols2",
   "version": "1.0.0",
-  "description": "<a href = 'https://anajl.github.io/ProjetoLS2/site/index.html' resl = 'nofollow' target = \"_blank\"> Clique Aqui ! </a><br>",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch --config webpack.config.js"
@@ -11,15 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/AmandaGAB/ProjetoLS2.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AmandaGAB/ProjetoLS2/issues"
   },
-  "homepage": "https://github.com/AmandaGAB/ProjetoLS2#readme",
-  "devDependencies": {
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
-  }
+  "homepage": "https://github.com/AmandaGAB/ProjetoLS2#readme"
 }

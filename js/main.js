@@ -83,8 +83,4 @@ function is_email(email){
   }
 }
 
-
-
-
 window.addEventListener('scroll', efeitoScroll)
-
