@@ -1,6 +1,5 @@
 import {showdata} from './lib.js';
 //API DOS PERSONAGENS
-let cor = ''
 let er = ''
 let item = document.querySelector('.characters')
 let text = document.querySelector('input[id = "search-input"]')
@@ -18,22 +17,22 @@ let button = document.querySelector('.but')
 let form = document.querySelector('fieldset')
 let nome = document.querySelector('#nome')
 let email = document.querySelector('input[id = "email"]')
-button.addEventListener('click', function(){
-  is_email(email.value)
-})
-
 
 
 function is_email(email){
-	er = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})$/; 
-	if(!email.match(er))
-	{
-		
-		alert('Email Inválido')
-  }
-  else{
-    form.innerHTML = `<br><br><br>
-    <h1>Obrigado(a) , ${nome.value}</h1>`
-  }
+  er = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})$/; 
+  if(!email.match(er))
+  {
+      
+      alert('Email Inválido')
 }
+else{
+  form.innerHTML = `<br><br><br>
+  <h1>Obrigado(a) , ${nome.value}</h1>`
+}
+}
+
+button.addEventListener('click', function(){
+  is_email(email.value)
+})
 
