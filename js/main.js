@@ -1,6 +1,7 @@
 import {showdata} from './lib.js';
 //API DOS PERSONAGENS
 let cor = ''
+let er = ''
 let item = document.querySelector('.characters')
 let text = document.querySelector('input[id = "search-input"]')
 let botao = document.getElementsByClassName('.botaok')
