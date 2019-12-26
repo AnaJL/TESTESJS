@@ -1,3 +1,4 @@
+import {efeitoScroll} from './lib'
 //API DOS PERSONAGENS
 let item = document.querySelector('.characters')
 let text = document.querySelector('input[id = "search-input"]')
@@ -81,4 +82,9 @@ function is_email(email){
     <h1>Obrigado(a) , ${nome.value}</h1>`
   }
 }
+
+
+
+
+window.addEventListener('scroll', efeitoScroll)
 

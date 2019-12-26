@@ -4,6 +4,10 @@ body{
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   margin: 0%;
+  
+}
+.bodyactive{
+  background-color: blue;
 }
 body ul li {
   text-decoration: none;

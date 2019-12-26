@@ -1,0 +1,25 @@
+{
+  "name": "ProjetoLS2",
+  "version": "1.0.0",
+  "description": "<a href = 'https://anajl.github.io/ProjetoLS2/site/index.html' resl = 'nofollow' target = \"_blank\"> Clique Aqui ! </a><br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaGAB/ProjetoLS2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmandaGAB/ProjetoLS2/issues"
+  },
+  "homepage": "https://github.com/AmandaGAB/ProjetoLS2#readme",
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
