@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "moment": "^2.24.0",
     "webpack-dev-server": "^3.10.1"
   },
   "devDependencies": {

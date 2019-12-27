@@ -1,4 +1,5 @@
 import {showdata} from './lib.js';
+import * as moment from 'moment'
 //API DOS PERSONAGENS
 let er = ''
 let item = document.querySelector('.characters')
